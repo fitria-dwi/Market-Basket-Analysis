@@ -11438,7 +11438,7 @@ subrules <- head(mba, n = 5, by = "confidence")
 plot(subrules, method = "graph")
 ```
 
-![](README_figs/README-unnamed-chunk-20-1.png)<!-- -->
+![Rplot](https://user-images.githubusercontent.com/74573342/141404114-97645fe4-5eea-4794-bd56-36456db8c34b.png)
 
 ##### The Parallel Coordinate Plot
 
@@ -11449,4 +11449,4 @@ parallel coordinate plot (from LHS to RHS).
 plot(subrules, method="paracoord")
 ```
 
-![](README_figs/README-unnamed-chunk-21-1.png)<!-- -->
+![Rplot01](https://user-images.githubusercontent.com/74573342/141404154-717f21ca-8992-4209-a7bb-c485106b564e.png)
