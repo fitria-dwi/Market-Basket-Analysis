@@ -11008,7 +11008,7 @@ print(data_item)
 itemFrequencyPlot(transaksi, topN=10, type='absolute')
 ```
 
-![](Market-Basket-Analysis_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](README_figs/README-unnamed-chunk-9-1.png)<!-- -->
 
 It can be seen that most frequent items is “Shampo Biasa”. Then followed
 by “Serum Vitamin”, “Baju Batik Wanita”, etc.
@@ -11438,8 +11438,7 @@ subrules <- head(mba, n = 5, by = "confidence")
 plot(subrules, method = "graph")
 ```
 
-![](https://drive.google.com/file/d/1F4uYBfquIH7pAxvjAMZmV85NimO0DVcI/view?usp=sharing)
-![](Market-Basket-Analysis_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](README_figs/README-unnamed-chunk-20-1.png)<!-- -->
 
 ##### The Parallel Coordinate Plot
 
@@ -11450,5 +11449,4 @@ parallel coordinate plot (from LHS to RHS).
 plot(subrules, method="paracoord")
 ```
 
-![](https://drive.google.com/file/d/1LOBspuBoWKQI9HNcXidHv_iHtvANLYlu/view?usp=sharing)
-![](Market-Basket-Analysis_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+![](README_figs/README-unnamed-chunk-21-1.png)<!-- -->
